@@ -18,7 +18,12 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        // Msc.jar线上maven地址
+        maven{
+            url 'http://libmsc.xfyun.cn/repository/maven-releases/'
+        }
+        //Bmob的maven仓库地址--必填
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
     }
 }
 
