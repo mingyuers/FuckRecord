@@ -1,5 +1,5 @@
 package com.fangm.fuckrecord.component;
 
-public interface IRecordUpload {
+public interface RecordUpload {
     void upload(String str);
 }
